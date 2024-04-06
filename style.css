@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'sans-serif';
+  box-sizing: border-box;
+}
+
+:focus {
+  color: whitesmoke;
+ /* TODO */
+}
+
+::placeholder{
+  color: whitesmoke;
+}
+
+body {
+  background: linear-gradient(to right, #8A2BE2, #feb47b);
+  color: whitesmoke;
+}
+
+input {
+  flex: 1;
+  height: 50px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.search-container {
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.2); /* Make dropdown background semi-transparent */
+  /* background: #feb47b; */
+  margin: 200px auto 0;
+  border-radius: 5px;
+}
+
+.suggestions {
+  list-style: none;
+  max-height: 300px;
+  overflow-y: scroll;
+  cursor: pointer;
+}
+
+.suggestions li {
+  font-size: 20px; /* Adjust the font size as needed */
+  margin-bottom: 8px; /* Adds space between items */
+  padding: 5px; /* Adds some padding inside each suggestion for better readability */
+  border-radius: 5px; /* Optional: adds rounded corners to each suggestion */
+}
+
+.suggestions li:hover {
+  background-color: #ff7e5f; /* Optional: Changes the background color of the suggestion on hover for better interaction feedback */
+}
+
+/* .highlight {
+  background-color: #8A2BE2;
+} */
+
+
+.search-container input,
+.search-container .suggestions {
+  /* TODO */
+}
+.search-container input {
+ /* TODO */
+}
+.search-container .suggestions {
+   /* TODO */
+}
+
+ul {
+  /* TODO */
+}
+ul.has-suggestions {
+  /* TODO */
+}
+ul li {
+  /* TODO */
+}
+ul li:hover {
+  /* background: greenyellow; */
+  /* TODO */
+}
+
+input {
+   /* TODO */
+}
+
+
+
+
+
