@@ -55,6 +55,10 @@ input {
   background-color: #ff7e5f; /* Optional: Changes the background color of the suggestion on hover for better interaction feedback */
 }
 
+b{
+  color: #8A2BE2;
+}
+
 /* .highlight {
   background-color: #8A2BE2;
 } */
